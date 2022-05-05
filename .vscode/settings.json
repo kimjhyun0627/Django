@@ -1,5 +1,6 @@
 {
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.localEchoStyle": "dim",
-    "terminal.integrated.fontFamily": "consolas"
+    "terminal.integrated.fontFamily": "consolas",
+    "python.formatting.provider": "black"
 }
