@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
-    {% load static %}
-<head>
-    <title>{%block head_title%}Blog{%endblock%}</title>
-    <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
+  {% load static %}
 
-    <script src="https://kit.fontawesome.com/a57aa70b5d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+  <head>
+    <title>
+      {%block head_title%}Blog{%endblock%}</title>
+      <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
+
+      <script src="https://kit.fontawesome.com/a57aa70b5d.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">
-                2022.05.07. KimJinHyun
-            </p>
+          <p class="m-0 text-center text-white">
+            2022.05.07. KimJinHyun
+          </p>
         </div>
         <!-- /.container -->
-    </footer>
-</body>
-</html>
+      </footer>
+    </body>
+
+  </html>
