@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render #add redirect
 from unicodedata import category
-from .models import Post, Category
+from .models import Post, Category #add Tag
 from django.views.generic import ListView, DetailView
 
 class PostList(ListView):
@@ -40,6 +40,8 @@ def category_page(request, slug):
             'category' : category,
         }
     )
+
+#toAdd
 
 # def index(request):
 #     posts = Post.objects.all().order_by('-pk')
