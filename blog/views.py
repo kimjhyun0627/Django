@@ -57,7 +57,7 @@ def category_page(request, slug):
         post_list = Post.objects.filter(category=None)
     else:
         category = Category.objects.get(slug=slug)
-        post_list = Post.objects.filter(category=category) 
+        post_list = Post.objects.filter(category=category)
         
     return render(
         request,
